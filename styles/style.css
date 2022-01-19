@@ -500,9 +500,6 @@ header h1 {
 }
 
 @media (min-width: 750px) {
-  .inspiration{
-    
-  }
   .inspiration .inspiration-item {
     width: 25%;
     max-height: 450px;
