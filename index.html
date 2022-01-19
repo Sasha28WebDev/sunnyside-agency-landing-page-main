@@ -40,21 +40,22 @@
             />
           </svg>
 
-          <nav> 
-            <div id="contain" >
+          <nav>
+            <div id="contain">
               <div class="bar1"></div>
               <div class="bar2"></div>
               <div class="bar3"></div>
             </div>
-      
+
             <ul id="nav" class="hidden">
               <li><a href="">About</a></li>
               <li><a href="">Services</a></li>
               <li><a href="">Projects</a></li>
-              <li class="btn"><a href="">Contact</a></li>
+              <li>
+                <button><a href="">Contact</a></button>
+              </li>
             </ul>
           </nav>
-      
         </div>
         <!--
           <nav>
@@ -68,6 +69,7 @@
           -->
 
         <h1>We are creatives</h1>
+        
         <svg
           class="header-arrow-down"
           width="36"
@@ -88,8 +90,8 @@
       </header>
       <main>
         <div class="offer">
-          <div class="offer-item">
-            <div class="offer-img">
+          <div class="offer-item transform">
+            <div class="offer-img ">
               <picture>
                 <source
                   media="(min-width:750px )"
@@ -112,7 +114,7 @@
               <a href="">Learn more</a>
             </div>
           </div>
-          <div class="offer-item">
+          <div class="offer-item stand-out">
             <div class="offer-img">
               <picture>
                 <source
@@ -137,67 +139,77 @@
           </div>
         </div>
         <div class="method">
-        <div class="method-item">
-          <picture>
-            <source
-              media="(min-width:750px )"
-              srcset="./styles/images/desktop/image-graphic-design.jpg"
-              type="image/jpg"
-            />
-            <img src="./styles/images/mobile/image-graphic-design.jpg" alt="" />
-          </picture>
-          <div class="method-text green">
-            <h2>Graphic design</h2>
-            <p>
-              Great design makes you memorable. We deliver artwork that
-              underscores your brand message and captures potential clients’
-              attention.
-            </p>
+          <div class="method-item">
+            <picture>
+              <source
+                media="(min-width:750px )"
+                srcset="./styles/images/desktop/image-graphic-design.jpg"
+                type="image/jpg"
+              />
+              <img
+                src="./styles/images/mobile/image-graphic-design.jpg"
+                alt=""
+              />
+            </picture>
+            <div class="method-text green">
+              <h2>Graphic design</h2>
+              <p>
+                Great design makes you memorable. We deliver artwork that
+                underscores your brand message and captures potential clients’
+                attention.
+              </p>
+            </div>
+          </div>
+          <div class="method-item">
+            <picture>
+              <source
+                media="(min-width:750px )"
+                srcset="./styles/images/desktop/image-photography.jpg"
+                type="image/jpg"
+              />
+              <img src="./styles/images/mobile/image-photography.jpg" alt="" />
+            </picture>
+            <div class="method-text blue">
+              <h2>Photography</h2>
+              <p>
+                Increase your credibility by getting the most stunning,
+                high-quality photos that improve your business image.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="method-item">
-          <picture>
-            <source
-              media="(min-width:750px )"
-              srcset="./styles/images/desktop/image-photography.jpg"
-              type="image/jpg"
-            />
-            <img src="./styles/images/mobile/image-photography.jpg" alt="" />
-          </picture>
-          <div class="method-text blue">
-            <h2>Photography</h2>
-            <p>
-              Increase your credibility by getting the most stunning,
-              high-quality photos that improve your business image.
-            </p>
-          </div>
-        </div>
-      </div>
         <div class="feedback">
           <h2>Client testimonials</h2>
-          <div class="feedback-item">
-            <p>
-              We put our trust in Sunnyside and they delivered, making sure our
-              needs were met and deadlines were always hit.
-              <span>Emily R.</span>
-              <span>Marketing Director</span>
-            </p>
-          </div>
-          <div class="feedback-item">
-            <p>
-              Sunnyside’s enthusiasm coupled with their keen interest in our
-              brand’s success made it a satisfying and enjoyable experience.
-              <span>Thomas S.</span>
-              <span>Chief Operating Officer</span>
-            </p>
-          </div>
-          <div class="feedback-item">
-            <p>
-              Incredible end result! Our sales increased over 400% when we
-              worked with Sunnyside. Highly recommended!
-              <span>Jennie F.</span>
-              <span>Business Owner</span>
-            </p>
+          <div class="feedback-content">
+            <div class="feedback-item">
+              <img src="./styles/images/image-emily.jpg" />
+              <p>
+                We put our trust in Sunnyside and they delivered, making sure
+                our needs were met and deadlines were always hit.
+              </p>
+              <div class="feedback-author">Emily R.</div>
+              <div class="feedback-author-profession">Marketing Director</div>
+            </div>
+            <div class="feedback-item">
+              <img src="./styles/images/image-thomas.jpg" />
+              <p>
+                Sunnyside’s enthusiasm coupled with their keen interest in our
+                brand’s success made it a satisfying and enjoyable experience.
+              </p>
+              <div class="feedback-author">Thomas S.</div>
+              <div class="feedback-author-profession">
+                Chief Operating Officer
+              </div>
+            </div>
+            <div class="feedback-item">
+              <img src="./styles/images/image-jennie.jpg" />
+              <p>
+                Incredible end result! Our sales increased over 400% when we
+                worked with Sunnyside. Highly recommended!
+              </p>
+              <div class="feedback-author">Jennie F.</div>
+              <div class="feedback-author-profession">Business Owner</div>
+            </div>
           </div>
         </div>
         <div class="inspiration">
@@ -290,5 +302,5 @@
       </footer>
     </div>
   </body>
-  <script src="./app.js" ></script>
+  <script src="./app.js"></script>
 </html>
